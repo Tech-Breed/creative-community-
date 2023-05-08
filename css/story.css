@@ -1,0 +1,617 @@
+
+
+#container{
+  margin: auto;
+  width: auto;
+  height: 450px;
+  border: solid 3px white;
+  background-color: #07111F;
+  overflow: hidden;
+}
+
+/* METEOR--------------------*/
+#trail{
+  transform: rotate(-25deg);
+  position: relative;
+  top:5%;
+  left: 40%;
+  height: 27%;
+  width: 100%;
+  border-radius: 500px 0 0 500px;
+  background-color: #E53D36;
+  box-shadow: 0px 0px 100px -14px #E53D36;
+  animation: glow 2s infinite;
+  animation-direction: alternate;
+}
+
+@keyframes glow{
+  to{box-shadow: 0px 0px 10px 2px #E53D36;}
+  to{left: 50%;}
+  to{top: 7%;}
+}
+
+#stream{
+  left: 1.5%;
+  position: absolute;
+  top: 10%;
+  width: 12%; 
+  background-color: #07111F;
+  border-radius: 200% 0 0 200%;
+  float: left;
+  z-index: 999;
+  
+}
+
+#stream:after {
+  content: "";
+  padding-bottom: 100%;
+  display: block;
+  border-radius: 500px 0 0 500px;
+ 
+  
+}
+
+#streamTrail{
+  left: 10%;
+  position: absolute;
+  top: 10%;
+  width: 12%; 
+  background-color: #07111F;
+  float: left;
+  
+}
+
+
+#streamTrail:after {
+  content: "";
+  padding-bottom: 100%;
+  display: block;
+  border-radius: 500px 0 0 500px;
+  background-color: #07111F;
+  float:left;
+  
+}
+
+
+
+
+#steamTrail1{
+  position: absolute;
+  top:0%;
+  left: 70%;
+  height: 20%;
+  width: 180%;
+  border-radius: 500px;
+  background-color: #07111F;
+  animation: move1 0.3s infinite;
+  animation-direction: alternate;
+}
+
+@keyframes move1{
+    to {left: 40%;}
+
+}
+
+#streamTrail1-b{
+  position: inherit;
+  top:0%;
+  left: 10%;
+  height: 20%;
+  width: 100%;
+  border-radius: 50px;
+  background-color: #07111F;
+  animation: move1-b 1.5s infinite;
+  animation-timing-function: linear;
+}
+
+@keyframes move1-b{
+    10% {left: 200%;}
+    100%{left:800%;}
+    to {width: 1%;}
+}
+
+
+#streamTrail2{
+  position: inherit;
+  top:20%;
+  left: 40%;
+  height: 20%;
+  width: 180%;
+  border-radius: 50px;
+  background-color: #07111F;
+}
+
+#streamTrail2-b{
+  position: inherit;
+  top:20%;
+  left: 80%;
+  height: 20%;
+  width: 180%;
+  border-radius: 50px;
+  background-color: #E53D36;
+  animation: move2 0.3s infinite;
+  animation-direction: alternate-reverse;
+  
+}
+
+@keyframes move2{
+  to{left:120%}
+
+}
+
+#streamTrail3{
+  position: absolute;
+  top: 40%;
+  left: 70%;
+  height: 20%;
+  width: 230%;
+  border-radius: 500px;
+  background-color: #07111F;
+  
+  animation: move3 0.5s infinite;
+  animation-direction: alternate;
+}
+
+@keyframes move3{
+    to {left: 30%;}
+}
+
+
+#streamTrail4{
+  position: inherit;
+  top:60%;
+  left: 30%;
+  height: 20%;
+  width: 100%;
+  border-radius: 50px;
+  background-color: #07111F
+    ;
+}
+
+#streamTrail4-b{
+  overflow: hidden;
+  position: inherit;
+  top:60%;
+  left: 100%;
+  height: 20%;
+  width: 400%;
+  border-radius: 50px;
+  background-color: #E53D36;
+  animation: move4 0.3s infinite;
+  animation-direction: alternate-reverse;
+  
+}
+
+@keyframes move4{
+  to{left:112%}
+}
+
+
+#streamTrail5{
+  position: inherit;
+  top:80%;
+  left: 50%;
+  height: 20%;
+  width: 140%;
+  border-radius: 50px;
+  background-color: #07111F;
+  animation: move5 0.3s infinite;
+  animation-direction: alternate;
+}
+
+@keyframes move5{
+    to {left: 40%;}
+}
+
+#streamTrail5-b{
+  position: inherit;
+  top:80%;
+  left: 100%;
+  height: 20%;
+  width: 100%;
+  border-radius: 50px;
+  background-color: #07111F;
+  animation: move5-b 1s infinite;
+  animation-timing-function: linear;
+}
+
+@keyframes move5-b{
+    10% {left: 200%;}
+    100%{left:800%;}
+    to {width: 1%;}
+}
+
+/* middle layer */
+
+#middle{
+  left: 10%;
+  position: absolute;
+  top: 10%;
+  width: 80%; 
+  background-color: #FFA644;
+  border-radius: 200%;
+  float: left;
+  z-index: 999;
+  
+}
+
+#middle:after {
+  content: "";
+  padding-bottom: 100%;
+  display: block;
+  border-radius: 500px 0 0 500px;
+ 
+  
+}
+
+#middleTrail{
+  left: 45%;
+  position: absolute;
+  top: 10%;
+  height:80%;
+  width: 60%; 
+  background-color: #FFA644;
+  float: left;
+  
+}
+
+
+#middleTrail1{
+  position: absolute;
+  top:0%;
+  left: 30%;
+  height: 15%;
+  width: 80%;
+  border-radius: 500px;
+  background-color: #FFA644;
+  animation: mid1 0.3s infinite;
+  animation-direction: alternate;
+}
+
+@keyframes mid1{
+    to {left: 50%;}
+
+}
+
+#middleTrail1-b{
+  position: inherit;
+  top:15%;
+  left: 80%;
+  height: 14%;
+  width: 80%;
+  border-radius: 10000px;
+  background-color: #07111F;
+  animation: mid1-b 1.5s infinite;
+  animation-timing-function: linear;
+}
+
+@keyframes mid1-b{
+    10% {left: 90%;}
+}
+
+
+#middleTrail2{
+  position: inherit;
+  top:29%;
+  left: 40%;
+  height: 14%;
+  width: 80%;
+  border-radius: 50px;
+  background-color: #FFA644;
+  animation: mid1 0.3s infinite;
+  animation-direction: alternate-reverse;
+}
+
+#middleTrail2-b{
+  position: inherit;
+  top:43%;
+  left: 80%;
+  height: 14%;
+  width: 80%;
+  border-radius: 50px;
+  background-color: #07111F;
+  animation: move2 0.3s infinite;
+  animation-direction: alternate-reverse;
+  
+}
+
+@keyframes move2{
+  to{left:90%}
+
+}
+
+#middleTrail3{
+  position: absolute;
+  top: 57%;
+  left: 60%;
+  height: 14%;
+  width: 110%;
+  border-radius: 500px;
+  background-color: #FFA644;
+  animation: mid3 0.5s infinite;
+  animation-direction: alternate;
+}
+
+@keyframes mid3{
+    to {left: 30%;}
+}
+
+#middleTrail3-b{
+  position: absolute;
+  top: 71%;
+  left: 80%;
+  height: 14%;
+  width: 30%;
+  border-radius: 500px;
+  background-color: #07111F;
+  animation: mid3b 0.5s infinite;
+  animation-direction: alternate;
+}
+
+@keyframes mid3b{
+    to {left: 85%;}
+}
+
+
+#middleTrail4{
+  position: inherit;
+  top:85%;
+  left: 30%;
+  height: 15%;
+  width: 100%;
+  border-radius: 50px;
+  background-color: #FFA644;
+  animation: mid4 0.4s infinite;
+  animation-direction: alternate-reverse;
+  
+}
+
+@keyframes mid4{
+  to{left:80%}
+}
+
+
+
+
+/* Background Stars ---------*/
+#starsA{
+  position: relative;
+  transform: rotate(-15deg);
+  top: 30%;
+}
+
+#clusterA{
+  height:4px;
+  width:4px;
+  background-color:white;
+  position: absolute;
+  left: -4px;
+  animation: a 5s infinite;
+  animation-timing-function: linear;
+  transform: rotate(45deg);
+}
+
+@keyframes a{
+  to{left:100%;}
+  20%{height:12px; width:12px;}
+  40%{height:4px; width:4px;}
+  60%{height:12px; width:12px;}
+  80%{height:4px; width:4px;}
+}
+
+#clusterB{
+  height:4px;
+  width:4px;
+  background-color:white;
+  position: relative;
+  top: 30%;
+  left: -4px;
+  animation: b 10s infinite;
+  animation-timing-function: linear;
+  transform: rotate(45deg);
+}
+
+@keyframes b{
+  to{left:100%;}
+  20%{height:1px; width:1px;}
+  40%{height:4px; width:4px;}
+  60%{height:1px; width:1px;}
+  80%{height:4px; width:4px;}
+}
+
+#starsB{
+  position: relative;
+  transform: rotate(-15deg);
+  top: 70%;
+}
+
+#clusterC{
+  height:4px;
+  width:4px;
+  background-color:white;
+  position: absolute;
+  left: -4px;
+  animation: c 12s infinite;
+  animation-timing-function: linear;
+  transform: rotate(45deg);
+}
+
+@keyframes c{
+  to{left:100%;}
+  20%{height:10px; width:10px;}
+  40%{height:4px; width:4px;}
+  60%{height:10px; width:10px;}
+  80%{height:4px; width:4px;}
+}
+
+#clusterD{
+  height:4px;
+  width:4px;
+  background-color:white;
+  position: relative;
+  top: 30%;
+  left: -4px;
+  animation: d 5s infinite;
+  animation-timing-function: linear;
+  transform: rotate(45deg);
+}
+
+@keyframes d{
+  to{left:100%;}
+  20%{height:1px; width:1px;}
+  40%{height:4px; width:4px;}
+  60%{height:1px; width:1px;}
+  80%{height:4px; width:4px;}
+}
+
+
+#starsC{
+  position: relative;
+  transform: rotate(-15deg);
+  top: 10%;
+}
+
+#clusterE{
+  height:4px;
+  width:4px;
+  background-color:white;
+  position: absolute;
+  left: -4px;
+  animation: e 4s infinite;
+  animation-delay: 4s;
+  animation-timing-function: linear;
+  transform: rotate(45deg);
+}
+
+@keyframes e{
+  to{left:100%;}
+  20%{height:10px; width:10px;}
+  40%{height:4px; width:4px;}
+  60%{height:10px; width:10px;}
+  80%{height:4px; width:4px;}
+}
+
+#clusterF{
+  height:4px;
+  width:4px;
+  background-color:white;
+  position: relative;
+  top: 30%;
+  left: -4px;
+  animation: f 3s infinite;
+  animation-timing-function: linear;
+  transform: rotate(45deg);
+}
+
+@keyframes f{
+  to{left:100%;}
+  20%{height:1px; width:1px;}
+  40%{height:4px; width:4px;}
+  60%{height:1px; width:1px;}
+  80%{height:4px; width:4px;}
+}
+
+#starsD{
+  position: relative;
+  transform: rotate(-10deg);
+  top: 10%;
+}
+
+/*planet----background----*/
+#clusterG{
+  height: 20px;
+  width: 20px;
+  border-radius: 20px;
+  background-color: #243F59;
+  position: relative;
+  top: 30%;
+  left: -4px;
+  animation: g 16s infinite;
+  animation-timing-function: linear;
+  transform: rotate(45deg);
+}
+
+@keyframes g{
+  to{left:100%;}
+}
+
+#starsE{
+  position: relative;
+  transform: rotate(-10deg);
+  top: 40%;
+}
+
+/*planet----background----*/
+#clusterH{
+  height: 40px;
+  width: 40px;
+  border-radius: 20px;
+  background-color: lightblue;
+  position: relative;
+  top: 30%;
+  left: -400px;
+  animation: h 8s infinite;
+  animation-timing-function: linear;
+  transform: rotate(45deg);
+  
+}
+
+@keyframes h{
+  to{left:100%;}
+}
+
+
+/* Foreground Stuff------*/
+#planet{
+  position: relative;
+  transform: rotate(-10deg);
+  top: 40%;
+}
+
+
+#globe{
+  height: 400px;
+  width: 400px;
+  border-radius: 100%;
+  background-color: #295949;
+  position: absolute;
+  left: -400px;
+  animation: globe 15s infinite;
+  animation-timing-function: linear;
+  box-shadow: inset 0px 0px 5px -2px white;
+  box-shadow: 0px 0px 45px 0px #295949;
+  overflow: hidden;
+}
+
+@keyframes globe{
+  20% {left:100%;}
+  100%{left:10000%;}
+}
+
+#innerGlobe{
+  height: 450px;
+  width: 450px;
+  border-radius: 100%;
+  background-color: #1C3D32;
+  position: relative;
+  left: -200px;
+  animation: innerglobe 15s infinite;
+  animation-timing-function: linear;
+  overflow:hidden;
+}
+
+@keyframes innerglobe{
+  50% {left:150%;}
+  100%{left:300%;}
+  
+}
+
+
+.container{
+background: linear-gradient(90deg, #232526 0%, #414345 100%);
+-webkit-background-clip: text;
+ -webkit-text-fill-color: transparent;  
+margin-top: 15px;
+padding: 15px 15px;
+
+}

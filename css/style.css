@@ -1,0 +1,350 @@
+@import url('https://fonts.googleapis.com/css2?family=Overpass:wght@300;600&family=Ubuntu:wght@400;500;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h1, h2, h3 {
+    font-family: 'Overpass', sans-serif;
+    font-weight: 600;
+}
+
+p {
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 25px;
+    opacity: 75%;
+}
+
+.bold {
+    font-weight: 700;
+}
+
+.section-1 {
+background: #1CADD8;
+background: linear-gradient(90deg, #1CADD8 0%, #93EDC7 100%);
+    border-radius: 0px 0px 0px 50px;
+    padding: 100px 0px;
+    width: 100%;
+    height: auto;
+}
+
+.navigation {
+    opacity: 1;
+    color: #FFF;
+    margin-top: -75px;
+    margin-bottom: 100px;
+}
+
+.navigation i {
+    padding: 0 5px;
+    transition: 0.3s;
+}
+
+.flex-container-1 {
+    margin-left: 100px;
+    display: flex;
+}
+
+.flex-container-1 div {
+    width: 125px;
+}
+
+#nav-logo {
+    margin: -2px 0 0 0;
+    font-family: 'Overpass', sans-serif;
+    font-size: 30px;
+    font-weight: 600;
+}
+
+.nav-links {
+    background-color: #FFF;
+    color: #000;
+    border-radius: 5px 25px;
+    position: absolute;
+    display: none;
+    opacity: 75%;
+    padding: 15px 5px;
+    z-index: 100;
+}
+
+.nav-main:hover {
+    opacity: 1;
+}
+
+.nav-links p {
+    line-height: 35px;
+    transition: 0.3s;
+}
+
+.nav-links p:hover {
+    opacity: 100%;
+    letter-spacing: 2px;
+}
+
+.right-side-nav {
+    position: absolute;
+    display: flex;
+    right: 150px;
+}
+
+#login-btn {
+    margin-right: 25px;
+}
+
+#login-btn:hover {
+    opacity: 1;
+}
+
+#sign-up-btn {
+    margin-top: -2px;
+    width: 100px;
+    height: 30px;
+    font-size: 13px;
+    font-weight: 600;
+}
+
+.text-box-1 {
+    color: #FFF;
+    text-align: center;
+}
+
+h1 {
+    font-size: 40px;
+}
+
+.text-box-1 p {
+    color: #FFF;
+    margin: 20px;
+}
+
+.btn-container {
+    margin: 50px 0 0 0;
+}
+
+.btn-container button {
+    margin: 0px 5px;
+    width: 125px;
+    height: 35px;
+    font-size: 13px;
+    font-weight: 600;
+}
+
+.btn-style-1 {
+    background-color: #FFF;
+    color: #999;
+    border: 1px solid #FFF;
+    border-radius: 25px;
+    transition: 0.3s;
+}
+
+.btn-style-1:hover {
+    opacity: 75%;
+}
+
+.btn-style-2 {
+    background-color: transparent;
+    color: #FFF;
+    border: 1px solid #FFF;
+    border-radius: 25px;
+    transition: 0.3s;
+}
+
+.btn-style-2:hover {
+    background-color: #FFF;
+    color: #999;
+}
+
+.section-2 {
+    background-color: #FFF;
+    padding: 100px 0px;
+    width: 100%;
+    height: auto;
+}
+
+.section-2 h2 {
+    margin: 0 0 75px 0;
+    text-align: center;
+}
+
+.flex-container-3 {
+    display: flex;
+}
+
+.text-box-2 {
+    padding: 0 0 0 150px;
+    width: 50%;
+}
+
+.text-box-2 h3 {
+    margin: 25px 0;
+}
+
+.text-box-2 p {
+}
+
+.img-1 {
+    background: url("../images/creativity.png");
+    margin: 0 50px 0 0;
+    width: 60%;
+    height: auto;
+}
+
+.section-3 {
+    background: #1CADD8;
+    background: linear-gradient(90deg, #1CADD8 0%, #93EDC7 100%);
+    border-radius: 0 50px 0 50px;
+    margin: 25px 0;
+    padding: 100px 0px;
+    width: 100%;
+    height: auto;
+}
+
+.flex-container-4 {
+    display: flex;
+
+}
+
+.img-2 {
+    margin: 0 50px 0 20px;
+    width: 60%;
+    height: auto;
+}
+
+.text-box-3 {
+    padding: 0 150px 0 0;
+    width: 50%;
+}
+
+.text-box-3 h2 {
+    color: #FFF;
+    margin: 0 0 25px 0;
+}
+
+.text-box-3 p {
+    color: #FFF;
+}
+
+.section-4 {
+    background-color: #FFF;
+    border-radius: 0 50px 0 50px;
+    margin: 25px 0;
+    padding: 100px 0px;
+    width: 100%;
+    height: auto;
+}
+
+.flex-container-5 {
+    display: flex;
+}
+
+.img-3 {
+   
+    margin: 0 50px 0 40px;
+    width: 60%;
+    height: auto;
+}
+
+.text-box-4 {
+    padding: 0 150px 0 0;
+    width: 50%;
+}
+
+.text-box-4 h3 {
+    margin: 25px 0;
+}
+
+.text-box-4 p {
+    opacity: 75%;
+}
+
+.footer {
+    background: #1CADD8;
+    background: linear-gradient(90deg, #1CADD8 0%, #93EDC7 100%);
+    color: #FFF;
+    border-radius: 0 50px 0 0;
+    margin: 25px 0 0 0;
+    padding: 50px 0px;
+    width: 100%;
+    height: auto;
+}
+
+.flex-container-6 {
+    display: flex;
+}
+
+.footer .logo {
+    width: 25%;
+}
+
+#f-logo {
+    margin: -2px 0 0 100px;
+    font-family: 'Overpass', sans-serif;
+    font-size: 30px;
+    font-weight: 600;
+}
+
+.f-head {
+    opacity: 1;
+    margin-bottom: 20px;
+}
+
+.f-links p {
+    cursor: pointer;
+    padding: 2px 0;
+    transition: 0.3s;
+}
+
+.f-links p:hover {
+    opacity: 100%;
+    letter-spacing: 2px;
+}
+
+.footer-products {
+    width: 25%;
+}
+
+.footer-company {
+    width: 25%;
+}
+
+.footer-connect {
+    width: 25%;
+}
+
+.credits p {
+    opacity: 1;
+    margin-top: 25px;
+    text-align: center;
+}
+
+/* media queries */
+
+@media only screen and (max-width: 1200px) {
+    .flex-container-1 { margin-left: 50px; }
+    .right-side-nav { right: 75px; }
+    .text-box-2 { padding: 0 0 0 50px; }
+    .text-box-3 { padding: 0 50px 0 0; }
+    .text-box-4 { padding: 0 50px 0 0; }
+    #f-logo { margin: -2px 0 0 50px; }
+}
+
+@media only screen and (max-width: 740px) {
+    .nav-bar { display: none; }
+    .flex-container-3 { flex-direction: column-reverse; flex-wrap: nowrap; justify-content: center; align-items: center; text-align: center; }
+    h1 { font-size: 35px; }
+    .text-box-1 { padding: 0 25px; }
+    .img-1, .img-2, .img-3 { margin: -25px 0 50px 0; width: 100%; height: 300px; }
+    .text-box-2 { padding: 0 50px; width: 100%; }
+    .flex-container-4 { flex-direction: column; flex-wrap: nowrap; justify-content: center; align-items: center; text-align: center; }
+    .text-box-3 { padding: 0 50px; width: 100%; }
+    .flex-container-5 { flex-direction: column; flex-wrap: nowrap; justify-content: center; align-items: center; text-align: center; }
+    .text-box-4 { padding: 0 50px; width: 100%; }
+    .flex-container-6 { flex-direction: column; flex-wrap: nowrap; justify-content: center; align-items: center; text-align: center; }
+    #f-logo { display: flex; justify-content: center; align-content: center; margin: 25px 0 50px 0; }
+    .f-head { margin-bottom: 10px; }
+    .footer-products, .footer-company, .footer-connect { margin-bottom: 25px; }
+}
