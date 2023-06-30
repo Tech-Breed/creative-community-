@@ -24,12 +24,12 @@ p {
 }
 
 .section-1 {
-background: #1CADD8;
-background: linear-gradient(90deg, #1CADD8 0%, #93EDC7 100%);
+background-image:url("../images/space2.jpg ") ;
+    background-size: cover;
     border-radius: 0px 0px 0px 50px;
     padding: 100px 0px;
     width: 100%;
-    height: auto;
+    height: 105vh;
 }
 
 .navigation {
@@ -183,11 +183,11 @@ h1 {
     margin: 25px 0;
 }
 
-.text-box-2 p {
-}
+
 
 .img-1 {
-    background: url("../images/creativity.png");
+    background: url("../images/space.jpg") center;
+    background-size: cover;
     margin: 0 50px 0 0;
     width: 60%;
     height: auto;
@@ -209,9 +209,11 @@ h1 {
 }
 
 .img-2 {
+    background: url("../images/pexels-alberlan-barros-7311920.jpg") center;
+    background-size: cover;
     margin: 0 50px 0 20px;
     width: 60%;
-    height: auto;
+    height: 40vh;
 }
 
 .text-box-3 {
@@ -242,7 +244,8 @@ h1 {
 }
 
 .img-3 {
-   
+    background: url("../images/pexels-rakicevic-nenad-1274260.jpg") center;
+    background-size: cover;
     margin: 0 50px 0 40px;
     width: 60%;
     height: auto;
@@ -262,8 +265,8 @@ h1 {
 }
 
 .footer {
-    background: #1CADD8;
-    background: linear-gradient(90deg, #1CADD8 0%, #93EDC7 100%);
+    background: url("../images/pexels-elina-sazonova-2072600.jpg")center;
+   background-size: cover;
     color: #FFF;
     border-radius: 0 50px 0 0;
     margin: 25px 0 0 0;
