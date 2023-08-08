@@ -23,20 +23,25 @@ p {
     font-weight: 700;
 }
 
+
 .section-1 {
-background-image:url("../images/space2.jpg ") ;
+    background:url("../images/space2.jpg");
     background-size: cover;
-    border-radius: 0px 0px 0px 50px;
+    position: center;
+    border-radius: 0px 0px 50px 50px;
     padding: 100px 0px;
     width: 100%;
     height: 105vh;
 }
 
+
+
 .navigation {
     opacity: 1;
-    color: #FFF;
+    color: #F1F1F2;
     margin-top: -75px;
     margin-bottom: 100px;
+    
 }
 
 .navigation i {
@@ -54,15 +59,16 @@ background-image:url("../images/space2.jpg ") ;
 }
 
 #nav-logo {
-    margin: -2px 0 0 0;
+    margin: -60px 0 0 0; 
+    margin-left: -40px;
     font-family: 'Overpass', sans-serif;
-    font-size: 30px;
-    font-weight: 600;
+    font-size: 10%;
+    font-weight: 600; 
 }
 
 .nav-links {
-    background-color: #FFF;
-    color: #000;
+    background-color: #BC5668;
+    color: #F1F1F2;
     border-radius: 5px 25px;
     position: absolute;
     display: none;
@@ -108,7 +114,7 @@ background-image:url("../images/space2.jpg ") ;
 }
 
 .text-box-1 {
-    color: #FFF;
+    color: #F1F1F2;
     text-align: center;
 }
 
@@ -117,7 +123,7 @@ h1 {
 }
 
 .text-box-1 p {
-    color: #FFF;
+    color: #F1F1F2;
     margin: 20px;
 }
 
@@ -134,9 +140,9 @@ h1 {
 }
 
 .btn-style-1 {
-    background-color: #FFF;
-    color: #999;
-    border: 1px solid #FFF;
+    background-color: #9888bf;
+    color: black;
+    border: 1px solid #F1F1F2;
     border-radius: 25px;
     transition: 0.3s;
 }
@@ -147,19 +153,19 @@ h1 {
 
 .btn-style-2 {
     background-color: transparent;
-    color: #FFF;
-    border: 1px solid #FFF;
+    color: #F1F1F2;
+    border: 1px solid #9888bf;
     border-radius: 25px;
     transition: 0.3s;
 }
 
 .btn-style-2:hover {
-    background-color: #FFF;
-    color: #999;
+    background-color: #9888bf;
+    color: #F1F1F2;
 }
 
 .section-2 {
-    background-color: #FFF;
+    background-color: #F1F1F2;
     padding: 100px 0px;
     width: 100%;
     height: auto;
@@ -194,9 +200,9 @@ h1 {
 }
 
 .section-3 {
-    background: #1CADD8;
-    background: linear-gradient(90deg, #1CADD8 0%, #93EDC7 100%);
-    border-radius: 0 50px 0 50px;
+    background: #9888bf;
+    
+    border-radius: 0 0 50px 50px;
     margin: 25px 0;
     padding: 100px 0px;
     width: 100%;
@@ -222,16 +228,16 @@ h1 {
 }
 
 .text-box-3 h2 {
-    color: #FFF;
+    color: #F1F1F2;
     margin: 0 0 25px 0;
 }
 
 .text-box-3 p {
-    color: #FFF;
+    color: #F1F1F2;
 }
 
 .section-4 {
-    background-color: #FFF;
+    background-color: #F1F1F2;
     border-radius: 0 50px 0 50px;
     margin: 25px 0;
     padding: 100px 0px;
@@ -267,8 +273,8 @@ h1 {
 .footer {
     background: url("../images/pexels-elina-sazonova-2072600.jpg")center;
    background-size: cover;
-    color: #FFF;
-    border-radius: 0 50px 0 0;
+    color: #F1F1F2;
+    border-radius: 0 0 0 0;
     margin: 25px 0 0 0;
     padding: 50px 0px;
     width: 100%;
@@ -284,7 +290,7 @@ h1 {
 }
 
 #f-logo {
-    margin: -2px 0 0 100px;
+    padding: -0px 0;
     font-family: 'Overpass', sans-serif;
     font-size: 30px;
     font-weight: 600;

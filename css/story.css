@@ -1,9 +1,11 @@
 
 
 #container{
+  background-size: cover;
+  
   margin: auto;
   width: auto;
-  height: 450px;
+  height: 60vh;
   border: solid 3px white;
   background-color: #07111F;
   overflow: hidden;
